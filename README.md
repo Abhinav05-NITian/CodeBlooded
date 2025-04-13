@@ -62,4 +62,3 @@ FILE DETAILS:-
 7. you have to save three videos on same folder for home page video animation.
 8. Data localhost in backend so we have saved the data on js file to show.
 9. Inside every html file almost all button are connected with respective html file.
-10. Add your API KEY in your .env file then only the bot will work.
