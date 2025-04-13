@@ -1,6 +1,8 @@
 let g = document.querySelector("#gender");
 let s = document.querySelector("#submit") ;
 let a = document.createElement("input") ;
+const dotenv = require('dotenv');
+dotenv.config();
 s.addEventListener("click" , () =>
 {
      if(g.value == "Female" || g.value == "female" || g.value == "FEMALE")
@@ -9,7 +11,7 @@ s.addEventListener("click" , () =>
           }
 })
 let map = document.querySelector("#map");
-const API_KEY = "88a4d4161a5b4d428e714586976fa37d";
+const API_KEY = process.env.API_KEY;
 document.getElementById('getLocationBtn').addEventListener('click', () => {
   fetch(`https://api.ipgeolocation.io/ipgeo?apiKey=${API_KEY}`)
     .then(response => response.json())
