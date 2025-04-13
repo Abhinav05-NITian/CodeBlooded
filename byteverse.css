@@ -1,0 +1,606 @@
+*
+{
+    margin : 0px ;
+    padding : 0px ;
+    overflow-x : none ;
+}
+:root 
+{
+    --primary-color :  #b91c1c ;
+    --secondary-color : white ;
+}
+.greenmode 
+{
+    --primary-color : #007B00 ;
+}
+body 
+{
+    font-family: "Exo 2", sans-serif;
+    overflow-x: hidden ;
+}
+header 
+{
+    width : 100% ;
+     padding : 10px ;
+     display: flex ;
+     flex-direction: row ;
+     color : var(--secondary-color) ;
+     height: 60px ;
+     align-items : center ;
+     opacity : 1000 ;
+     position : fixed ;
+     z-index : 1 ;
+     top : 0px ;
+     margin-top : 0px ;
+     background-color: var(--primary-color);
+     
+}
+header img 
+{
+    height : 60px ;
+    width : 80px ;
+    display : inline ;
+}
+.menu a
+{
+   margin-left : 75px ;
+   font-size : 24px ;
+   text-transform: capitalize ;
+   text-decoration: none ;
+   color : var(--secondary-color) ;
+  font-weight: 400 ;
+}
+header h2 
+{
+    display : inline ;
+    text-transform: uppercase ;
+    text-decoration: italic ;
+
+}
+.menu 
+{
+    margin-left : 290px ;
+}
+header .logo
+{
+    margin-left : 120px ;
+    display : flex ;
+    flex-direction: column ;
+    cursor : pointer ;
+}
+.logo i
+{
+    font-size : 30px ;
+    margin-left : 40px ;
+    color : transparent ;
+    -webkit-text-stroke: 2px  var(--secondary-color) ;
+}
+.i1 a
+{
+    margin-left : 28px ;
+    font-size : 20px ;
+    text-transform: capitalize ;
+}
+header .icon 
+{
+    display : flex ;
+    flex-direction: row ;
+}
+.menu a:hover 
+{
+    font-size : 26px ;
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: #fffdd0;
+    transition: all 0.3s ease;
+}
+aside
+{
+    position : fixed ;
+    height : 90vh ;
+    width : 305px ;
+    top : 81px ;
+    left : 80% ;
+    z-index :  1000 ;
+    background-color: #f5f5f5;
+    display : flex ;
+    flex-direction: column ; 
+    visibility: hidden ;
+}
+.side div 
+{
+    padding-left : 20px ;
+    border-bottom : 0.5px solid black ;
+    height : 10vh ;
+}
+.side div p 
+{
+    position : relative ;
+    font-size : 16px ;
+    left : 60px ;
+}
+.side div i 
+{
+    font-size : 30px ;
+    position: relative;
+    top : 12px ;
+    -webkit-text-stroke: 2px  var(--primary-color) ;
+    color : transparent ;
+}
+.side h2 
+{
+    color : var(--primary-color) ;
+    text-align: center ;
+    font-size: 30px ;
+    text-transform: uppercase ;
+    position: relative;
+    top : 12px ;
+}
+.side a
+{
+    position : relative ;
+    left : 26px ;
+    top : 5px ;
+    font-size : 20px ;
+    text-transform: capitalize ;
+}
+.side div button 
+{
+    position : relative ;
+    top : -30px ;
+}
+.stop-scrolling 
+{
+    height : 100vh ;
+    overflow-y : hidden ;
+}
+.t1
+{
+    height : 102% ;
+    width : 100% ;
+    position : absolute ;
+    top : 4px ;
+    left : 0px ;
+    background-color : rgb(0, 0, 0,0.6) ;
+    opacity : 0 ;
+    transition : 0.6s ;
+    color : #ffe100 ;
+    text-align: center ;
+}
+.t1:hover
+{
+    opacity : 1 ;
+    transform : translatey(-5px) ;
+}
+.h1
+{
+    position : relative ;
+    border : solid 2px var(--primary-color) ;
+}
+.img1 
+{
+    height : 60px ;
+    width : 80px ;
+    display : inline ;
+    position : relative ;
+    top : 20px ;
+}
+.b1 
+{
+    position: relative ;
+    top : -20px ;
+    left : -60px ;
+    width : 200px; 
+    height : 60px ;
+    border-radius : 50px ;
+    font-size : 20px ;
+    color :  var(--secondary-color) ;
+    background-color: var(--primary-color) ;
+}
+span img
+{
+    height : 100px ;
+    width : 100px ;
+}
+.light 
+{
+    position: relative;
+}
+.icon1 img 
+{
+    height : 100px ;
+    width : 100px ;
+    mix-blend-mode: color-burn;
+}
+.icon1 img
+{
+    margin-right : 40px ;
+}
+.icon1 
+{
+    padding-left : 20px ;
+}
+.i2 
+{
+    font-size : 20px ;
+    padding-left : 40px ;
+}
+.i2 a 
+{
+    margin-left: 20px ;
+    margin-right : 10px ;
+}
+.b2 
+{
+    position: relative ;
+    top : -20px ;
+    left : -40px ;
+    width : 200px; 
+    height : 60px ;
+    border-radius : 50px ;
+    font-size : 20px ;
+    color :  var(--primary-color) ;
+    background-color: var(--secondary-color) ;
+}
+.b1:hover 
+{
+    transform: scale(1.2);
+    box-shadow : 2.5px 2.5px 2.5px white ;
+}
+.b2:hover 
+{
+    transform: scale(1.2);
+    box-shadow: 2.5px 2.5px 2.5px white ;
+}
+.poster 
+{
+    height : 540px ;
+    width : 100vw ;
+    margin-top : 120px ;
+    background-color: #f5f5f5 ;
+}
+.heading 
+{
+    padding-top : 30px ;
+    height : 200px ;
+    width : 45vw ;
+    text-align: center ;
+    font-size : 40px ;
+    color : var(--primary-color) ;
+    text-transform: capitalize ;
+    
+}
+.heading h1 
+{
+    text-align: center ;
+    font-size : 50px ;
+    color : black ;
+    text-transform: capitalize ;
+    
+}
+.picture video
+{
+    position : relative ;
+    left : 45% ;
+    top : -215px ;
+    height : 65% ;
+    width : 53% ;
+    border-radius : 20px ;
+    border : 1px solid var(--primary-color) ;
+}
+.heading p 
+{
+    margin-top : 30px ;
+    margin-bottom: 40px ;
+    -webkit-text-stroke: 0.25px black ;
+    font-size : 30px ;
+}
+.time 
+{
+    margin : 50px 200px ;
+    display : flex ;
+    flex-direction : row ;
+    gap : 100px ;
+}
+/* .donor 
+{
+    height : 100px ;
+    width : 400px ;
+    margin-left: 200px;
+    text-align: center ;
+    text-transform: uppercase ;
+    padding : 10px ;
+    color: var(--secondary-color) ;
+    background-color: var(--primary-color) ;
+} */
+.blood 
+{
+    height : 100px ;
+    width : 400px ;
+    text-align: center ;
+    text-transform: uppercase ;
+    padding : 10px ;
+    color: var(--secondary-color) ;
+    background-color: var(--primary-color) ;
+    border-radius: 20px;
+} 
+
+.donor {
+    height : 100px ;
+    width : 400px ;
+    margin-left: 190px;
+    border-radius: 20px;
+    text-align: center ;
+    text-transform: uppercase ;
+    padding : 10px ;
+    color: var(--secondary-color) ;
+    background-color: var(--primary-color) ;
+}
+.student
+{
+    height : 370px  ;
+    width : 98.5vw ;
+    margin-top : 40px ;
+        display : flex ;
+        overflow-x : scroll ;
+        scroll-behavior: smooth ;
+        cursor : pointer ;
+        flex-direction: left ;
+        margin-bottom : 60px ;
+        padding-left : 20px ;
+}
+.student div
+{
+    height : 340px ;
+    min-width : 340px ;
+    margin-right : 30px ;
+    border-radius : 20px ;
+}
+.student div img 
+{
+    border-radius : 20px ;
+}
+.student::-webkit-scrollbar
+{
+    width : 1px ;
+    background-color : var(--secondary-color) ;
+    border : solid 0.5px var(--primary-color) ;
+    margin-top: 5px ;
+}
+.student::-webkit-scrollbar-thumb
+{
+    width : 1px ;
+    background-color: red ;
+    -webkit-text-stroke: 1px black ;
+}
+.creator
+{
+    text-align: center ;
+    text-decoration: underline;
+    text-transform : uppercase ;
+    color : var(--primary-color) ;
+    color: black;
+}
+table
+{
+    position: relative;
+    left : 20% ;
+    font-size: 26px ;
+    border : 2px solid black ;
+    margin-left: 60px;
+    color : var(--primary-color) ;
+    -webkit-text-stroke: 0.4px black ;
+    background-color: #f5f5f5;
+}
+tr 
+{
+    border-bottom: 1px solid black ;
+}
+th 
+{
+    width : 200px ;
+}
+td 
+{
+    width : 300px ;
+    text-align: center ;
+    border-right:  1px solid black ;
+}
+footer 
+{
+    height : 480px ;
+    width : 100% ;
+    display : grid ;
+    grid-template-rows: auto;
+    grid-template-columns: auto ;
+    margin-bottom: 0px ;
+}
+.a1 .a2 .a3
+{
+    grid-row-start: 1 ;
+    grid-row-end : 8 ;
+}
+.a1 
+{ 
+    grid-column-start : 1 ;
+    grid-column-end : 1 ;
+    text-align : center ;
+}
+.a2 
+{
+    grid-column-start : 2 ;
+    grid-column-end : 2 ;
+    
+}
+.a2 a{
+    color: black;
+    text-decoration: none;
+}
+.a2 ul li{
+    list-style-type: none;
+    /* text-decoration: none; */
+}
+.a2 ul li{
+    /* list-style-type: none; */
+    text-decoration: none;
+}
+.a3 
+{
+    grid-column-start : 3 ;
+    grid-column-end : 3 ;
+    list-style-type: none;
+}
+.a3 ul{
+    list-style-type: none;
+}
+footer h1 
+{
+    text-align: center ;
+    font-size : 40px ;
+    color : black ;
+    text-transform: capitalize ;
+    display: inline ;
+}
+footer h2 
+{
+    font-size : 30px ;
+    color : black ;
+    text-transform: capitalize ;
+    margin-top: 40px ;
+    margin-bottom: 20px ;
+}
+footer li
+{
+   font-size : 20px ;
+   margin-top : 20px ;
+   text-decoration: none ;
+}
+footer strong 
+{
+    color : var(--primary-color) ;
+}
+.a1 p 
+{
+    font-size : 26px ;
+    color : var(--primary-color) ;
+    -webkit-text-stroke: 0.5px black ;
+    margin-top : 40px ;
+    text-transform: capitalize ;
+}
+.a2 
+{
+    padding-top : 64px ;
+}
+footer 
+{
+    background-color: #f5f5f5 ;
+    margin-top : 100px ;
+    color: black ;
+}
+ul
+{
+    text-decoration: none ;
+}
+.a3
+{
+    padding-top : 64px ;
+}
+.chat 
+{
+    height : 100px ;
+    width : 200px ;
+    position : relative ;
+    top : 5px ;
+}
+.chat img 
+{
+    height : 90% ;
+    width : 100% ;
+    position : relative ;
+    top : 5px ;
+}
+.feedback 
+{
+    height : 100px ;
+    width : 200px ;
+    position : relative ;
+    top : -100px ;
+    left : 240px ;
+}
+.feedback img 
+{
+    height : 90% ;
+    width : 100% ;
+    position : relative ;
+    top : 5px ;
+}
+.laster 
+{
+    background: #f8f8f8;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.register
+{
+    height : 100px ;
+    width : 200px ;
+    position : relative ;
+    top : -200px ;
+    left : 460px ;
+}
+.register img 
+{
+    height : 90% ;
+    width : 100% ;
+    position : relative ;
+}
+.t1 p 
+{
+    color : #f8f4f4 ;
+    margin-top : 10px ;
+}
+.t1 h1 
+{
+    position:  relative ;
+    top : -40px ;
+    color : #1DCD9F ;
+}
+.chatbot 
+{
+    border : 2px solid black ;
+    height : 100px ;
+    width : 100px ;
+    border-radius : 50% ;
+    position : fixed ;
+    top : 84vh ;
+    left : 90vw ;
+    z-index : 1000 ;
+    animation: work 1s ease 0s infinite ; 
+}
+.b1 , .b2
+{
+    transition : all 0.2s ease ;
+}
+.chatbot img 
+{
+    height : 100px ;
+    width : 100px ;
+    border-radius : 50% ;
+}
+@keyframes work 
+{
+    0% {
+        top : 84vh ;
+    }
+     50% {
+      top : 80vh ;
+    }
+    100% {
+         top : 84vh ;
+    }
+}
+.table 
+{
+    border-radius: 20px ;
+}

@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "byteverse.css">
+    <link rel="icon" href="https://png.pngtree.com/png-clipart/20230426/original/pngtree-blood-drop-blood-red-cartoon-illustration-png-image_9103018.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Gravitas+One&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <title>Blood Flow</title>
+</head>
+<body>
+    <div class = "total" id = "total">
+    <header>
+            <img src = "https://png.pngtree.com/png-clipart/20230426/original/pngtree-blood-drop-blood-red-cartoon-illustration-png-image_9103018.png" id = "img1">
+            <h2> <i> BloodFlow </i> </h2>
+        <div class = "menu">
+            <a href="byteverse.html"> Home </a>
+            <a href="about.html"> About </a>
+            <a href="donor.html"> Donate </a>
+            <a href="recipient.html"> Reciepnt </a>
+            <a href = "new.html"> Get Blood </a>
+        </div>
+        <div class = "logo">
+            <div class = "icon">
+            <i class="fa-solid fa-circle-user"></i>
+            <i class="fa-solid fa-toggle-on" style="margin-left: 50px;" id = "mode" name = "mode"></i>
+            <i class="fa-solid fa-bars" id = "option"></i>
+            </div>
+            <div class = "i1">
+                <a> Profile </a>
+                <a> Mode </a> 
+                <a> Info </a>
+            </div>
+        </div>
+    </header>
+    <div class = "poster">
+       <div class = "heading"> 
+        <h1 style="color: black;"> Let your blood <br> flow for good </h1>
+        <p style="margin-left: 20px; margin-right: 20px; font-style: italic;"> a person dies due blood loss in every 5 minute donate blood to support lifes </p>
+        <button class = "b1" onclick="t2()"> Get Registered </button>
+        <button class = "b2" onclick="t1()"> Be Reciepnt </button>
+        <br>
+        <div class = "logo light">
+            <div class = "icon1">
+        <img src = "https://t4.ftcdn.net/jpg/00/74/73/15/360_F_74731565_Oiw4LNIFeeZ4alGkse5UrYFoyfFIKEYY.jpg">
+        <img src = "https://i0.wp.com/www.helpingheartscharity.org/wp-content/uploads/2018/01/cropped-helping-hearts.jpg?fit=240%2C240&ssl=1">
+           <img src = "https://www.pngarc.com/wp-content/uploads/2023/05/Blood-bank-and-Blood-donation-center-background-png-1-min.png" style="mix-blend-mode: none; margin-left: 40px;">
+            </div>
+            <div class = "i2">
+                <a> NGO Verified </a>
+                <a> Helping Hand Award </a> 
+                <a> Working In 30 Cities </a>
+            </div>
+        </div>
+       </div>
+       <div class = "picture">
+        <video autoplay muted id = "story"> </video>
+       </div>
+    </div>
+    <div class = "chatbot">
+       <img src = "https://img.freepik.com/free-psd/futuristic-robot-illustration_23-2150978986.jpg">
+    </div>
+    <div class = "time">
+    <div class = "donor">
+        <h1> donor registered </h1>
+        <h1 class = "number1" >  </h1>
+    </div>
+    <div class = "blood">
+         <h1> blood unit collected </h1>
+         <h1 class = "number2"> </h1>
+    </div>
+    </div>
+    <h1 class = "creator"> our donors </h1>
+          <div class = "student">
+         </div>
+         </div>
+         <div class = ".table">
+              <table style="border-collapse:collapse;table-layout:auto;">
+                <tr>
+                    <th colspan="3" style="border: 2px solid black; color: black; border-radius: 20px;"> Compatible Blood Type Donors </th>
+                </tr>
+                <tr>
+                    <th style=" border-right : 2px solid black ; color: black;" > Blood Type </th>
+                    <th style=" border-right : 2px solid black ; color: black;"> Donate To </th>
+                    <th style=" border-right : 2px solid black ; color: black;" > Recieve From </th>
+                </tr>
+                <tr>
+                    <td> A+ </td>
+                    <td> A+ AB+</td>
+                    <td> A+ A- O+ O- </td>
+                </tr>
+                <tr>
+                    <td> O+ </td>
+                    <td> A+ B+ AB+ O+</td>
+                    <td> O+ O- </td>
+                </tr>
+                <tr>
+                    <td> B+ </td>
+                    <td> B+ AB+ </td>
+                    <td> B+ B- O+ O-</td>
+                </tr>
+                <tr>
+                    <td> AB+ </td>
+                    <td> AB+ </td>
+                    <td> Everyone </td>
+                </tr>
+                <tr>
+                     <td> A-</td>
+                     <td> A+ A- AB+ AB- </td>
+                     <td> A- O- </td>
+                </tr>
+                <tr>
+                    <td> O- </td>
+                    <td> Everyone </td>
+                    <td> O- </td>
+                </tr>
+                <tr>
+                    <td> B- </td>
+                    <td> B+ B- AB+ AB- </td>
+                    <td> B- O- </td>
+                </tr>
+                <tr>
+                    <td> AB- </td>
+                    <td> AB+ AB- </td>
+                    <td> AB- A- B- O- </td>
+                </tr>
+              </table>
+         </div>
+         </div>
+         <footer>
+            <div class = "a1">  
+                <img src = "https://png.pngtree.com/png-clipart/20230426/original/pngtree-blood-drop-blood-red-cartoon-illustration-png-image_9103018.png" class = "img1">
+                <h1 class = "heading" style="color : black"> bloodflow </h1>
+                <h2>What We Stand For</h2>
+                <ul>
+                  <li><strong>Compassion:</strong> Every drop counts, every life matters.</li>
+                  <li><strong>Transparency:</strong> Clear, honest, and secure processes.</li>
+                  <li><strong>Community:</strong> Bringing people together to save lives.</li>
+                  <li><strong>Innovation:</strong> Leveraging technology to solve real problems.</li>
+                </ul>
+                <p> a person dies to blood loss in every 5 minute <br> donate blood to support lifes </p>
+            </div>
+            <div class = "a2">
+                <h2> Events Organized </h2> 
+            <ul>
+                <li > <a href="https://indianredcross.org/ircs/program/BloodBank" ></a>Red Cross Society </li>
+                <li> <a href="https://phcet.ac.in/blood-donation-camp-2025/" style="text-decoration:none">Summer Camp 2025</a></li>
+                <li> <a href="https://www.who.int/campaigns/world-health-day/2024" style="text-decoration:none">World Health Day</a> </li>
+                <li> <a href="https://heartstartcpr.net/understanding-bleeding/" style="text-decoration:none">Bleed Red</a> </li>
+                <li> <a href="https://unnatbharatabhiyan.gov.in/public/uploads/progress_report/172327041766b7051128f33UNNAT_BHARAT_COMBINED_REPORTS-APRIL_1_TO_JUNE_31_-2024.pdf" style="text-decoration:none">Health Camp 2024 </a></li>
+                <li><a href="https://www.who.int/" style="text-decoration:none">WHO Awareness</a></li>
+            </ul></div>
+            <div class = "a3"> 
+                <h2> Contact Details </h2>
+                <ul>
+                    <li><strong> <i class="fa-solid fa-envelope"></i>
+                    </strong>bloodflow@gmail.com </li>
+                    <li> <strong> <i class="fa-solid fa-phone"></i> </strong> +91 8000580005</li>
+                    <li><strong> <i class="fa-brands fa-instagram"></i></strong> <a>Blood Flow</a></li>
+                    <li> <strong> <i class="fa-brands fa-linkedin"></i></strong> <a> BloodFlowACC</a></li>
+                  
+                </ul>
+            </div>
+         </footer>
+         <div class = "laster">
+            &copy;2025 Blood Donation. Empowering Life through donation.
+         </div>
+    <aside>
+        <div id = "side" class = "side">
+            <div> <h2>  bloodflow  </h2>
+                <i class="fa-solid fa-x" style="position: relative; top: -10px;" id = "of"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-bell"></i>
+                <a> notification </a>
+                <p> allow your notification </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a> your orders </a>
+                <p>view all your bookings </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-tv"></i>
+                <a> steam library </a>
+                <p> rented and purchased movie </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-credit-card"></i>
+                <a> your credit card offer </a>
+                <p> view your credit card details </p>
+            </div>
+            <div>
+                <i class="fa-regular fa-message"></i>
+                <a> Help & support </a>
+                <p> view commonly asked queries </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-gear"></i>
+                <a> account and setting </a>
+                <p> location payment permision </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-gift"></i>
+                <a> rewards </a>
+                <p> view your redars and unlock </p>
+            </div>
+            <div>
+                <i class="fa-regular fa-image"></i>
+                <a> book a change </a>
+            </div>
+        </div>
+    </aside>
+    <script src = "byteverse.js" > </script>
+</body>
+</html>
