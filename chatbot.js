@@ -3,10 +3,8 @@ const chatcontainer = document.querySelector(".chatcontainer");
 const sendbt = document.querySelector("#submit");
 const toggleBtn = document.getElementById("modeToggle");
 const body = document.body;
-const dotenv = require('dotenv')
-dotenv.config();
 
-const api_url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.API_KEY_CHAT}`;
+const api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBXDNPclOPrKUNLAvFaTYFq41NP-KOYGbk";
 
 let user = { data: null };
 
